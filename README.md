@@ -14,9 +14,9 @@ The projects are organized in folders, each corresponding to a different program
 - **Node.js (Express)** - Listens on port `5002`
   - Folder: `node_app`
   - Framework: Express
-- **Java (Spark Java)** - Listens on port `5003`
+- **Java (Spring Boot)** - Listens on port `5003`
   - Folder: `java_app`
-  - Framework: Spark Java
+  - Framework: Spring Boot
 - **Ruby (Sinatra)** - Listens on port `5004`
   - Folder: `ruby_app`
   - Framework: Sinatra

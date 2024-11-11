@@ -8,7 +8,7 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.hello</groupId>
+	<groupId>com.hello.world</groupId>
 	<artifactId>world</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>world</name>
@@ -58,7 +58,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-                <mainClass>com.hello.WorldApplication</mainClass>
+                <mainClass>com.hello.world.WorldApplication</mainClass>
             	</configuration>
 			</plugin>
 		</plugins>
