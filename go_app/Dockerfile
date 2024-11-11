@@ -1,20 +1,20 @@
-# Usamos la imagen oficial de Go basada en Alpine
+# We use the official Go image based on Alpine
 FROM golang:1.23.3-alpine
 
-# Seteamos el directorio de trabajo dentro del contenedor
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copiamos el go.mod y go.sum (si existen)
+# Copy go.mod and go.sum (if they exist)
 COPY go.mod ./
 
-# Instalamos las dependencias con go mod
+# Install dependencies with go mod
 RUN go mod tidy
 
-# Copiamos el código fuente y los archivos estáticos
+# Copy the source code and static files
 COPY . .
 
-# Exponemos el puerto 5005
+# Expose port 5005
 EXPOSE 5005
 
-# Comando para ejecutar la aplicación
+# Command to run the application
 CMD ["go", "run", "app.go"]
