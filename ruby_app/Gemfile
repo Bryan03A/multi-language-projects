@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'webrick' # I think I have to add this but I might remove it later >>> note: bad idea
+gem 'rackup'

@@ -1,0 +1,14 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "Proyecto en Node.js para Programación Distribuida",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
