@@ -2,11 +2,11 @@
 
 ## 1. Download the project from GitHub
 Follow one of the methods mentioned above:
-- **Clone with Git**: Use `git clone <repository-URL>` to copy the project to your computer.
+- **Clone with Git**: Use `git clone https://github.com/Bryan03A/multi-language-projects.git` to copy the project to your computer.
 - **Download ZIP**: Go to the repository on GitHub and select **Download ZIP**. Then, unzip the file.
 
 ## 2. Consideration for using a Java-specific IDE
-If you're using a Java-specific IDE like IntelliJ IDEA or Eclipse, the process is simpler. These IDEs usually recognize the project automatically and download the Maven dependencies without additional steps. In this case, you just need to run the main class, typically named `WorldApplication.class` (or similar), which contains the `@SpringBootApplication` annotation.
+If you're using a Java-specific IDE like IntelliJ IDEA or Eclipse, the process is simpler. These IDEs usually recognize the project automatically and download the Maven dependencies without additional steps. In this case, you just need to run the main class, named `WorldApplication.class`, which contains the `@SpringBootApplication` annotation.
 
 However, when using an editor like Visual Studio Code, which is not exclusively focused on Java, you will need to follow the additional steps below to configure and run the project properly.
 

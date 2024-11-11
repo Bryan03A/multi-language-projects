@@ -1,7 +1,7 @@
 {
   "name": "node_app",
   "version": "1.0.0",
-  "description": "Proyecto en Node.js para Programación Distribuida",
+  "description": "Node.js project for Distributed Programming",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
